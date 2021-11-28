@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Figuras geométricas | Curso práctico de JavaScript en Platzi </title>
+</head>
+<body>
+    <header>
+        <h1>
+            Figuras geométricas
+        </h1>
+        <p>Este es el primer taller del curso práctico de JavaScript en Platzi.</p>
+    </header>
+
+    <section>
+        <h2>
+            Calcula el área y el perímetro de un cuadrado
+        </h2>
+        <form>
+            <label for="InputCuadrado">
+                Escribe cuánto mide cada lado de tu cuadrado:
+            </label>
+            <input id="InputCuadrado" type="number" />
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcula el perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcula el área
+            </button>
+        </form>
+    </section>
+
+    <section>
+        <h2>
+            Calcula la altura de un triángulo isósceles
+        </h2>
+        <form>
+            <label for="InputLado1">
+                Longitud del lado 1:
+            </label>
+            <input id="InputLado1" type="number" />
+            <label for="InputLado2">
+                Longitud del lado 2:
+            </label>
+            <input id="InputLado2" type="number" />
+            <label for="Base">
+                Longitud de la base:
+            </label>
+            <input id="Base" type="number" />
+
+            <button type="button" onclick="calcularAlturaTriangulo()">
+                Calcula la altura
+            </button>
+        </form>
+    </section>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
